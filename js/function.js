@@ -13,8 +13,9 @@ showMensagem = (modaId) => {
 closeMensagem = (modalId) => {
       const modal = document.getElementById(modalId);
       const nome = document.getElementById("campo-nome").value;
+      const email = document.getElementById("campo-email").value;
       modal.classList.remove('mostrar')
-      alert(" bem vindo ! " + nome);
+      alert(" Sr(a) " +nome+" recebemos sua solicitação,em breve enviaremos email para "+email);
 }
 
 tamanho = 20;
